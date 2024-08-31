@@ -1,0 +1,42 @@
+<div
+    class="divGeral"
+    >
+    <h1
+        class="h1Titulo"
+        >Teste de TDAH
+    </h1>
+
+    <app-texto-painel
+        texto="{{TextoPainel}}"
+    />
+
+    <div
+        class="divBotoes"
+        *ngIf="RespondendoPerguntas"
+        >
+
+        <app-botao
+            (click)="RespondePergunta(0)"
+            texto="SIM"
+        />
+
+        <app-botao
+            (click)="RespondePergunta(1)"
+            texto="NÃO"
+        />
+
+    </div>
+
+    <div
+        class="divBotoes"
+        *ngIf="VendoResultado"
+        >
+
+        <app-botao
+            (click)="RefazerTeste()"
+            texto="REFAZER TESTE"
+        />
+
+    </div>
+
+</div>

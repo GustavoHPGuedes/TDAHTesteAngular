@@ -1,0 +1,15 @@
+button
+{
+    height: 100px;
+    width: 275px;
+    border-radius: 25px;
+    border: solid #ffffff;
+    background-color: rgb(163, 25, 255);
+    border-width: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}

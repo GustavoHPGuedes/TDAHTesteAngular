@@ -1,0 +1,32 @@
+.h1Titulo
+{
+    margin-top: 50px;
+    font-size: 72px;
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+.divGeral
+{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgb(237, 103, 255) 50%, rgb(122, 0, 116) 100%);
+}
+
+.divComponents
+{
+    display: flex;
+    justify-content: start;
+    height: 8%;
+}
+
+.divBotoes
+{
+    margin-top: 2.5%;   
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: center;
+    display: flex;
+}
